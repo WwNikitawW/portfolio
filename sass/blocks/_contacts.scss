@@ -1,0 +1,36 @@
+.contacts {
+    padding: 120px 0 90px 0;
+    text-align: center;
+    &__title {
+        &::before {
+            content: '';
+            position: absolute;
+            height: 36px;
+            width: 36px;
+            border-radius: 100%;
+            background-color: $maine-color;
+            z-index: -1;
+            margin-left: 19px;
+            margin-top: -8px;
+        }
+    }
+    &__subtitle {
+        margin: 20px 0 20px 0;
+    }
+    &__img {
+        margin-top: 20px;
+        width: 220px;
+        border-radius: 5px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    &__social {
+        margin-top: 20px;
+        a {
+            margin-right: 15px;
+        }
+    }
+}
