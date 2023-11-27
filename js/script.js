@@ -25,7 +25,7 @@ new WOW().init();
 
 // -----------------------------------------------------------------------------------------------
 
-window.onload = function () {
+/* window.onload = function () {
     let ctx = document.getElementById("C"),
       c = ctx.getContext("2d"),
       w,
@@ -433,3 +433,4 @@ window.onload = function () {
     window.requestAnimationFrame(loop);
   };
   
+ */
